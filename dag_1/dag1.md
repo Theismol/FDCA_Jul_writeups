@@ -23,3 +23,6 @@ Thor har også lavet et par opslag som omhandler koden til våbenrummet. I et op
 Til sidst skal vi finde datoen hvor Loke har tænkt sig at angribe Asgård. Loke har kommenteret på en del af Thor's opslag og på hans profil havde han et opslag hvor han snakkede omkring at der kunne ske noget den 13. december i Asgård. <br>
 Jeg prøvede derfor flaget: FDCA{12:00_THUNDER9000_14:30_13/12/2024} <br> 
 Dette var forkert og på nuværende tidspunkt er opslaget fra Loke omkring den 13. december blevet slettet. <br>
+Efter pinligt lang tids undring og de to hints, som ikke hjalp på datoen lagde jeg mærke til at der stod at Thor skulle arbejde 24 timer hos bifrost igen den 24. og den 25. dermed ville være oplagt for Loke at angribe så jeg prøvede som sidste håb dette flag: <br>
+FDCA{12:00_THUNDER9000_14:30_25/12/2024} <br>
+Og BUM det var korrekt.
