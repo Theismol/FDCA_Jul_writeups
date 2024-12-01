@@ -27,16 +27,19 @@ Jeg startede med at gå ind på Thor's BlueSky og se på alle hans opslag. Her e
 1. **Vagtskifte tidspunkt ved Bifrost:**  
    I et opslag skriver han:  
    > "Så skal jeg på vagt igen i dag! #ReadyAt1200."  
-   Dette kunne indikere, at vagtskiftet sker klokken **12:00**.  
+
+   Derfor må vagtskiftet ske klokken **12:00**.  
 
 2. **Hvornår Heimdal holder pause:**  
    I et andet opslag skriver han:  
    > "Hver dag kl. 14:30 sker der noget magisk i Asgård – jeg fanger Heimdal i pauserummet, hvor han sidder og leger med ponyer! Selv den mægtige vogter af Bifrost har brug for lidt hygge. Skal jeg begynde at tage billeder?"  
-   Dette kunne betyde, at Heimdal holder pause klokken **14:30**.  
+
+   Derfor må Heimdal holde pause klokken **14:30**.  
 
 3. **Kodeordet til våbenkammeret:**  
    Thor har også lavet et par opslag, som omhandler koden til våbenrummet. I et opslag skriver han:  
    > "Hør lige her!!! Hvis I også har problemer med at huske jeres koder, ligesom jeg altid har, så har jeg fundet den perfekte løsning! Tatover koden – så glemmer du den aldrig igen! Genialt, ikke?"  
+
    På hans profil kan man også se et billede af en arm med en tatovering, hvor der står **THUNDER9000**. Dette må være koden til våbenrummet.  
 
 4. **Dato for Lokes planlagte angreb:**  
@@ -45,6 +48,7 @@ Jeg startede med at gå ind på Thor's BlueSky og se på alle hans opslag. Her e
    `FDCA{12:00_THUNDER9000_14:30_13/12/2024}`  
 
    Dette var forkert, og på nuværende tidspunkt er opslaget fra Loke omkring den **13. december** blevet slettet.  
+   > "24-timers vagt igen… Hvem tænkte, det var en god idé at sætte en Tordengud på dobbeltvagt? ⚡️😴 Jeg er så træt efter midnat, at jeg næsten tabte hammeren! Og juleaften skal jeg på igen… Hvor er julemagien til os guder?! Kæmpe kop øl, tak. 🍺"
 
    Efter pinligt lang tids undring og de to hints, som ikke hjalp på datoen, lagde jeg mærke til, at der stod, at Thor skulle arbejde 24 timer hos Bifrost igen den **24.** Dermed ville det være oplagt for Loke at angribe den **25.** Så jeg prøvede som sidste håb dette flag:  
    `FDCA{12:00_THUNDER9000_14:30_25/12/2024}`  
