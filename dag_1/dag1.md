@@ -48,9 +48,11 @@ Jeg startede med at gå ind på Thor's BlueSky og se på alle hans opslag. Her e
    `FDCA{12:00_THUNDER9000_14:30_13/12/2024}`  
 
    Dette var forkert, og på nuværende tidspunkt er opslaget fra Loke omkring den **13. december** blevet slettet.  
+   Efter pinligt lang tids undring og de to hints, som ikke hjalp på datoen, lagde jeg mærke til Thor havde skrevet dette:
    > "24-timers vagt igen… Hvem tænkte, det var en god idé at sætte en Tordengud på dobbeltvagt? ⚡️😴 Jeg er så træt efter midnat, at jeg næsten tabte hammeren! Og juleaften skal jeg på igen… Hvor er julemagien til os guder?! Kæmpe kop øl, tak. 🍺"
+   
+   Jeg tænkte derfor at det var oplagt for Loke at angribe den **25. december** efter Thors 24 timers vagt og prøvede flaget:
 
-   Efter pinligt lang tids undring og de to hints, som ikke hjalp på datoen, lagde jeg mærke til, at der stod, at Thor skulle arbejde 24 timer hos Bifrost igen den **24.** Dermed ville det være oplagt for Loke at angribe den **25.** Så jeg prøvede som sidste håb dette flag:  
    `FDCA{12:00_THUNDER9000_14:30_25/12/2024}`  
 
    Og **BUM**, det var korrekt.
