@@ -15,4 +15,11 @@ Flag Eksempel:
 FDCA{15:00_GodKode123_19:00_23/11/2024}
 
 # Løsning
-
+Jeg startede med at gå ind på Thor's bluesky og se på alle hans opslag.
+Her er der specielt 4 der er interessante:
+I et opslag skriver han: Så skal jeg på vagt igen i dag! #ReadyAt1200, hvilket kunne indikere at vagtskiftet sker klokken 12
+I et andet opslag skriver han: Hver dag kl. 14:30 sker der noget magisk i Asgård – jeg fanger Heimdal i pauserummet, hvor han sidder og leger med ponyer!  Selv den mægtige vogter af Bifrost har brug for lidt hygge. Skal jeg begynde at tage billeder? Dette kunne betyde at Heimdal holder pause klokken 14:30
+Thor har også lavet et par opslag som omhandler koden til våbenrummet. I et opslag skriver han dette: Hør lige her!!! Hvis I også har problemer med at huske jeres koder, ligesom jeg altid har, så har jeg fundet den perfekte løsning! Tatover koden – så glemmer du den aldrig igen! Genialt, ikke? På hans profil kan man også se et billede af en arm med en tatovering hvor der står THUNDER9000. Dette må være koden til våbenrummet.
+Til sidst skal vi finde datoen hvor Loke har tænkt sig at angribe Asgård. Loke har kommenteret på en del af Thor's opslag og på hans profil havde han et opslag hvor han snakkede omkring at der kunne ske noget den 13. december i Asgård.
+Jeg prøvede derfor flaget: FDCA{12:00_THUNDER9000_14:30_13/12/2024}
+Dette var forkert og på nuværende tidspunkt er opslaget fra Loke omkring den 13. december blevet slettet.
