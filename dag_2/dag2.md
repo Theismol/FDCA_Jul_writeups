@@ -9,6 +9,7 @@ Freja mener at have set Loke gå rundt med et USB-stick.
 Vi har fået noget data fra maskinen, måske du kan finde noget?
 
 Vedhæftet fil: 2024-11-23t14.55.47_investigationpackage.zip
+
 ---
 
 # Løsning
