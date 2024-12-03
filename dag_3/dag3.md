@@ -56,7 +56,7 @@ Scroller man længere ned ser man disse linjer som viser en DNS query lavet til 
 ```
 
 
-Der er en del af disse og kigger man på første bogstav i hvert **QueryName** for DNS til dette domæne begynder et mønster at tegne sig.
+Der er en del af disse og kigger man på første bogstav i hvert **QueryName** (For ovenstående **F**.e3y8h.hackerneivalhalla.dk) for DNS til dette domæne begynder et mønster at tegne sig.
 
 Jeg har lavet et python script **flag_get.py** som finder alle DNS queries til hackerneivalhalla.dk og hiver det første bogstav ud og samler dem alle i en streng.
 
