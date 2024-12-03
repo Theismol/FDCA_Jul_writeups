@@ -12,14 +12,19 @@ Vedhæftet fil: handout.evtx
 For at kunnne læse hvad der står i **handout.evtx** filen bruger jeg cli toolet **python-evtx** som laver evtx filen om til en human readable xml fil som jeg derefter kan åbne.
 Jeg kigger lidt gennem filen og ser nogle interesanter linjer:
 
+```xml
+<?xml version="1.1" encoding="utf-8"?>
 <Data Name="CommandLine">python  eksfiltration.py</Data>
 <Data Name="CurrentDirectory">C:\Users\fdcactf\Desktop\hackernes hemmelige v&#230;rkt&#248;jer\</Data>
+
+```
 
 
 Her kan vi se at hackerne har kørt et python script for at eksfiltrere noget data (Nok Thors flag)
 
 Scroller man længere ned ser man disse linjer som viser en DNS query lavet til et mistænkeligt domæne
-
+```xml
+<?xml version="1.1" encoding="utf-8"?>
 <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
   <System>
     <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
@@ -49,6 +54,8 @@ Scroller man længere ned ser man disse linjer som viser en DNS query lavet til 
     <Data Name="User">fdca-forensic\fdcactf</Data>
   </EventData>
 </Event>
+
+```
 
 
 Der er en del af disse og kigger man på første bogstav i hvert **QueryName** for DNS til dette domæne begynder et mønster at tegne sig.
