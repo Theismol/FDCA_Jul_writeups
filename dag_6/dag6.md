@@ -34,7 +34,7 @@ I denne folder ligger filen Hemmelig_Plan.docx, hvori der står En særlig opmæ
 
 I folderen ligger der også tre jpeg **Dagger.jpeg**, **Key.jpeg** og **Mjolnir_jail.jpeg**
 
-Jeg kører exiftool på alle tre, hvor der under author er en base64 encoded string. Decoder man stringen fra filen **Mjolnir_Jail.jpeg** får man FDCA{my_pr3c1ous_d4t4}, som er flaget for i dag
+Jeg kører exiftool på alle tre, hvor der under author er en base64 encoded string. Decoder man stringen fra filen **Mjolnir_Jail.jpeg** får man **FDCA{my_pr3c1ous_d4t4}**, som er flaget for i dag
 
 
 
