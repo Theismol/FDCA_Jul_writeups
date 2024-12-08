@@ -14,15 +14,15 @@ Jeg unzipper filen, hvor der indeni ligger Yggdrasil.jpeg.
 
 Jeg forsøger med en del forskellige stegonography tools som exiftool, strings og binwalk, men finder ikke noget.
 
-Til sidst kører jeg steghide extract -sf Yggdrasil.jpeg uden at bruge en passphrase og fra dette får jeg filen SuperHemmeligt.zip
+Til sidst kører jeg `steghide extract -sf Yggdrasil.jpeg` uden at bruge en passphrase og fra dette får jeg filen SuperHemmeligt.zip
 
 Jeg prøver at unzippe den, men den er password protected.
 
 Jeg bruger John The Ripper til at prøve at brute force passwordet
 
-john2zip SuperHemmeligt.zip > hash.txt
+`john2zip SuperHemmeligt.zip > hash.txt`
 
-john hash.txt
+`john hash.txt`
 
 Her får jeg password **ragnarok**
 
