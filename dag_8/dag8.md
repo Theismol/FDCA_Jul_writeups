@@ -27,16 +27,15 @@ Jeg afspiller filen og finder hurtigt ud af at det er morsekode man kan hører. 
 De brede er - mens de smalle er .
 Afkoder man dette får man (Tilføjet mellemrum for at gøre det lettere at læse): **HEIMDALL S PRØVEDE T AT E SCANNE G PORTENE A TIL N BIFROST, O MEN G BLEV R HURTIGT A BANNED P FOR H AT Y LAVE X ALT Y FOR Z MEGET Å LARM.**
 
-Herfra får vi sætningen: **HEIMDALL PRØVEDE AT SCANNE PORTENE TIL BIFROST, MEN BLEV HURTIGT BANNED FOR AT LAVE ALT FOR MEGET LARM.**
-og sætningen: **STEGANOGRAPHY XYZÅ**
+Herfra får vi sætningen: **HEIMDALL PRØVEDE AT SCANNE PORTENE TIL BIFROST, MEN BLEV HURTIGT BANNED FOR AT LAVE ALT FOR MEGET LARM.** og sætningen: **STEGANOGRAPHY XYZÅ**
 
 Jeg prøvede begge disse som flag, men ingen var korrekte.
 
 Jeg tænkte så derefter at kombinationer af sætninger kunne var passphrases til at extract flaget fra .wav filen, men dette virkede heller ikke.
 
-Jeg forsøgte derfor at google lidt omkring hvordan man kan gemme data i en .wav fil og fandt python library **stego-lsb**, som kan extracte data fra en .wav fil hvis den bruger **least significant bit** til at gemme data.
+Jeg forsøgte derfor at google lidt omkring hvordan man kan gemme data i en .wav fil og fandt python library **stego-lsb**, som kan extracte data fra en .wav fil hvis den bruger **least significant bit** (LSB) til at gemme data.
 
-Least significant bit er hvis man ændrer den bit der giver mindst information, og dermed gør næsten ingen forskel til noget andet. Er filen lang nok har den nok LSB til at man kan gemme en del data i dem.
+LSB indebærer at skjule data ved at ændre de mindst betydsningsfulde bits i for eksempel billeder og lydfiler, hvilket næsten ikke ændrer på billedet. Er filen stor nok kan en del data gemmes i filen.
 
 Jeg kører derfor kommandoen `stegolsb wavsteg -r -i heimdallbesked.wav -o output.txt -b 100`
 
