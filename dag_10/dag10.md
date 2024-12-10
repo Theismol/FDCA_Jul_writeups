@@ -78,6 +78,6 @@ Fordi krypteringen blot er addition og modulus og at alle bytes ikke kan tage en
 
 Dette har jeg lavet et python script, **decrypt.py**, til som tager filen **flag.txt.ragnarok** og dekrypterer.
 
-Outputtet fra dette script er: *FDCA{n0_r4ns0m_4_j07un}*, som er flaget for i dag
+Outputtet fra dette script er: **FDCA{n0_r4ns0m_4_j07un}**, som er flaget for i dag
 
 ---
