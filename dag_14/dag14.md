@@ -23,7 +23,7 @@ Jeg forsøgte at finde nogle filer at arbejde med ved at lave et hurtigt script:
 
 Her får jeg outputtet:
 
-`
+```
 archive: Is a directory \n
 bin: Is a directory
 considerations.md: Permission denied
@@ -32,12 +32,12 @@ etc: Is a directory
 lib: Is a directory
 lib64: Is a directory
 vault: Is a directory
-`
+```
 
 Her ser især vault og bin interessante ud, da vault så vidt jeg ved ikke er et normalt directory og bin kan have nogle filer vi kan køre.
 
 Jeg kører samme kommando som før men for hvert directory nu og finder disse filer:
-`
+```
 /archive/security.md: 
 /bin/bash: 
 /etc/bash.bashrc
@@ -47,7 +47,7 @@ Jeg kører samme kommando som før men for hvert directory nu og finder disse fi
 /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
 /lib64/ld-linux-x86-64.so.2
 /vault/flag.txt
-`
+```
 
 Her var jeg stuck i rigtig mange timer fordi der var ingen af disse filer som ville spille sammen. alle filer bortset fra de 3 filer 
 **/lib/x86_64-linux-gnu/libc.so.6**, **/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2**, **/lib64/ld-linux-x86-64.so.2**, havde jeg ikke permissions til at kunne køre. Jeg vidste at jeg skulle på en eller anden måde finde ud af hvad der stod i **/vault/flag.txt**, men havde ingen ide om hvordan.
@@ -58,11 +58,11 @@ Efter mange timer kommer jeg til at tænke på at det egentlig var mærkeligt at
 
 Jeg finder så ud af at \* ikke medtager hidden directories, som starter med . og jeg kører derfor en opdateret kommando: `for file in /.\*;do $file;done;`, hvor jeg får dette output:
 
-`
+```
 /.bashrc: Permission denied
 /.c2VjcmV0Ymlu: Is a directory
 /.ssh: Is a directory
-`
+```
 
 **.c2VjcmV0Ymlu** er base64 encoded og decodes til **.secretbin**, som nok har hemmeligheden til at finde flaget.
 
@@ -70,7 +70,7 @@ Da jeg ikke ved hvilke filer der ligger i directory prøver jeg bare at køre de
 
 Fra dette får jeg outputtet:
 
-`
+```
 /vault/flag.txt: line 1: .: filename argument required
 .: usage: . filename [arguments]
 /vault/flag.txt: line 2: .: filename argument required
@@ -92,7 +92,7 @@ Fra dette får jeg outputtet:
 .: usage: . filename [arguments]
 /vault/flag.txt: line 11: .: filename argument required
 .: usage: . filename [arguments]
-`
+```
 
 og her ser vi at flaget for dagen er **FDCA{Ba5h_Liter4te_y0u_ar3}**
 
