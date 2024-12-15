@@ -24,7 +24,7 @@ Jeg forsøgte at finde nogle filer at arbejde med ved at lave et hurtigt script:
 Her får jeg outputtet:
 
 `
-archive: Is a directory
+archive: Is a directory \n
 bin: Is a directory
 considerations.md: Permission denied
 credit.md: Permission denied
