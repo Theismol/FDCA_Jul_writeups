@@ -82,7 +82,7 @@ hu6quljnfuws2rkoiqqe6ucfjzjvgsbakbjesvsbkrcsas2flews2ljnfufa
 
 ```
 
-Jeg tænker først at den ser bade64 encrypted ud, men det virker ikke. Bagefter prøver jeg base32, base62, base58, ROT13 og alt mellem himmel og jord af encodings, men inter virker og jeg tænker derfor må den være krypteret. Jeg skal bare finde keyen til at decrypte den.
+Jeg tænker først at den ser bade64 encoded ud, men det virker ikke. Bagefter prøver jeg base32, base62, base58, ROT13 og alt mellem himmel og jord af encodings, men inter virker og jeg tænker derfor må den være krypteret. Jeg skal bare finde keyen til at decrypte den.
 
 Jeg rodder hele filsystemet igennem med **fenrir.ls.priv** og finder også derigennem ud af at der er en bruger der hedder vault og en directory der hedder vault som helt sikkert er der hvor flaget ligger men jeg har ikke adgang til det, men er stadig helt lost på hvordan jeg skal dekrypterer filen.
 
