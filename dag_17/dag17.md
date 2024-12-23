@@ -1,10 +1,15 @@
-#Opgave(IKKE LØST)
+# Opgave (IKKE LØST)
+
 
 ÅH NEJ!! Jætterne har ændret Odins katte billeder, Odin er dybt bedrøvet over dette og forlanger at dette udbedres. Derfor har han bedt os undersøge, hvad jætterne har gjort ved hans katte.
 
 Vedhæftet fil: cat.zip
 
-#Løsning
+
+---
+
+# Løsning
+
 
 zip filen er password protected. Jeg bruger kommando `zip2john cat.zip > hash.txt`som laver en fil som JohnTheRipper kan cracke.
 
@@ -31,4 +36,4 @@ Dette hjælper mig så ikke vanvittigt meget når jeg allerde har prøvet med st
 Jeg tænkte først at et passphrasen måske var **thor123** eller **!Hemmeligt_Kodeord1324** jeg allerde havde brugt kunne være svaret, men ingen af disse virkede. 
 
 
-
+---
