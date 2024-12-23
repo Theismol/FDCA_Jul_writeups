@@ -8,10 +8,13 @@ Vedhæftet fil: IndpakketGave.zip
 
 # Løsning
 
-strings på den ser .net
-DotPeek på den
-Klasse der hedder P
-Dette kode er der 
+Jeg unzipper filen hvori der ligger **IndpakketGave.exe**
+
+Jeg kører kommandoen `strings IndpakketGave.exe` og ser hurtigt den er skrevet i .net.
+
+Jeg smider den derfor ind i DotPeek, som er en C# og .net decompiler.
+
+Her finder jeg klassen P med nedenstående kode:
 
 ```csharp
 namespace IndpakketGave
@@ -67,6 +70,17 @@ namespace IndpakketGave
   }
 }
 ```
+Jeg finder også kG som er nedenstående base64 string:
+
 `S6BpWo8WyKFzwRzntKjW+nuD4+IeeZbMM2OmQcsTf2fgWoE81bOah1hmiPTLOzP`
+
+I koden kan jeg se at stringen `valhallahpakkergodegaver` bliver brugt som key og en IV med kun 0 bliver brugt til at kryptere flaget.
+
+Det krypterede flag bliver sammenlignet med kG og derfor må kG være det krypterede flag.
+
+Jeg skriver derfor et script et Python script **decrypt.py**, som dekrypterer kG.
+
+Outputtet fra dette er **FDCA{1ndp4kk3t_g4ver_er_d3_8edste}**, som er flaget for i dag
+
 
 ---
