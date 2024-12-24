@@ -33,7 +33,8 @@ Jeg kører nedenstående kommando:
 
 Nu kan jeg åbne system.txt og lede efter E drevet og her kan jeg under MountedDevices se dette:
 
-`Device: RkRDQXtVU0JfRjBSM041MUM1X1JfTjFDM30=
+```
+Device: RkRDQXtVU0JfRjBSM041MUM1X1JfTjFDM30=
   \DoSDevices\F:
 
 Device: _??_USBSTOR#Disk&Ven_Kingston&Prod_DataTraveler_80&Rev_PMAP#646E6999356EE7C1B1371C1D&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
@@ -45,14 +46,15 @@ Device: DMIO:ID: 34 57 cb 40 c8 0c 16 b2 47 a5 49 bc e0 b9 9c ac
 
 Device: \??\SCSI#CdRom&Ven_NECVMWar&Prod_VMware_SATA_CD01#5&260e6d66&0&010000#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
   \??\Volume{9fc10d4f-a3ed-11ef-9019-806e6f6e6963}
-  \DosDevices\D:`
+  \DosDevices\D:
+```
 
 Her ser device med navnet **RkRDQXtVU0JfRjBSM041MUM1X1JfTjFDM30=** en smule mistænkeligt ud og det ligner det er base64 encoded.
 
 Jeg smider derfor strengen ind i CyberChef og decoder med base64 og får outputtet:
 
-`FDCA{USB_F0R3N51C5_R_N1C3}`
+`FDCA{USB_F0R3N51C5_R_N1C3}`, som er flaget for i dag.
 
-Og dermed har vi flaget.
+
 ---
 
